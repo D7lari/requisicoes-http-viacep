@@ -1,0 +1,28 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ececec;
+}
+
+form{
+    width: 350px;
+    background-color: white;
+    padding: 26px;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px #00000025;
+    & label{
+        display: block;
+    
+    }
+    & input{
+        width: 100%;
+        height: 46px;
+        margin-bottom: 16px;
+        border-radius: 5px;
+        border: 2px solid #efefef;
+        padding-left: 10px;
+        box-sizing: border-box;
+    }
+}
